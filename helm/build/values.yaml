@@ -1,0 +1,15 @@
+app:
+  name: poi-backend-app
+  namespace: utherp0
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/utherp0-backend
+  org: Summit23Janus1
+  name: utherp0-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: utherp0/poi-backend-app
+  tag: latest
